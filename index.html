@@ -112,10 +112,8 @@
       .section-hero .video-wrap {height: 92vh; width:100%; position:relative; overflow:hidden; }
 
       .section-hero .video-wrap  {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - var(--slope)));
-    padding: 0 0 var(--slope);
-    padding: 0;
-    display: grid;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
+
 }
 
       
@@ -123,7 +121,7 @@
     z-index: 2;
     align-self: end;
     align-items: end;
-    gap: calc(var(--g-gap)* .5);
+    
     grid-area: content;
     grid-template-columns: 1fr fit-content(90%);
     display: grid;
