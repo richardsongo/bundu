@@ -111,7 +111,25 @@
       
       .section-hero .video-wrap {height: 92vh; width:100%; position:relative; overflow:hidden; }
 
-      .section-hero .video-wrap video { }
+      .section-hero .video-wrap  {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - var(--slope)));
+    padding: 0 0 var(--slope);
+    padding: 0;
+    display: grid;
+}
+
+      
+.video-wrap div {
+    z-index: 2;
+    align-self: end;
+    align-items: end;
+    gap: calc(var(--g-gap)* .5);
+    grid-area: content;
+    grid-template-columns: 1fr fit-content(90%);
+    display: grid;
+    position: relative;
+}
+
       
     </style>
 
@@ -150,6 +168,22 @@
        <div class="container-fluid">    
            <div class="video-wrap">
              <video src="https://mdbootstrap.com/img/video/animation-intro.mp4" class="" playsinline autoplay muted loop></video>
+
+             <div>
+      <h1 class="heading-lg">
+        Iris van Herpen <span>Sculpting the Senses</span>
+      </h1>
+
+      
+
+      <h2 class="heading-sm">Opens 29 Jun 2024</h2>
+
+      <a href="/exhibition/iris-van-herpen-sculpting-the-senses" class="cta-see-more">
+        Get tickets 
+      </a>
+    </div>
+
+             
             </div>
         </div>
 
