@@ -156,24 +156,20 @@
 }
       
 
-        .section-hero .video-wrap video {
+.section-hero .video-wrap video {
     z-index: 0;
 }
 
       
-.video-wrap div {
+.section-hero .video-wrap .otext {
     z-index: 1002;
-    align-self: end;
-    align-items: end;
-    
-    grid-area: content;
-    grid-template-columns: 1fr fit-content(90%);
-    display: grid;
+    align-self: auto;
+    align-items: auto;
     position: relative;
 }
 
       .slanted  {
-    clip-path: polygon(90% 0, 100% 0, 100% 100%, 0 90% );
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 90% );
          display: grid;
 
 }
@@ -182,6 +178,7 @@
       
        .main__navbar nav {    padding: 1.2em calc((100vw - 94vw / 2); }
       .content__wrapper {}
+  
     </style>
 
     
@@ -249,7 +246,7 @@
              
              <video src="https://mdbootstrap.com/img/video/animation-intro.mp4" class="" playsinline autoplay muted loop></video>
              
-              <div>
+              <div class="otext">
                 <h1 class="heading-lg">Mavoula meto ma ntouadi</span></h1>
                 <h2 class="heading-sm">Opens 29 Jun 2024</h2>
                 <a href="" class="cta-see-more btn">Get tickets</a>
