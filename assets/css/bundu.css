@@ -34,9 +34,7 @@
 }
 
 html {
-    color: var(--c-goma-grey);
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
 }
@@ -46,7 +44,7 @@ html {
 .heading-md {
   font-weight: 800;
   line-height: 1.1;
-  font-size: var(--f-s-md);
+ /* font-size: var(--f-s-md);*/
 }
 
 .heading-sm {}
