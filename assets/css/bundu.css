@@ -55,7 +55,7 @@ html {
 h1, h2, h3, h4, h5, h6  {color: #1e1e1c; font-weight:800; font-family: "Montserrat", sans-serif; }
 body                    {color: #1e1e1c; font-family: "Montserrat", sans-serif; }
 
-.container-fluid { max-width: 97rem;  }
+.container-fluid { max-width: 1346px;  }
 
 .main__navbar     { box-shadow: 0 0 6px #00000026;}
 .main__navbar nav { padding: 1.2em calc((100vw - 94vw / 2); }
