@@ -35,7 +35,7 @@
 
 html {
     color: var(--c-goma-grey);
-    font-family: Flama, sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: var(--f-s-root);
     font-weight: 400;
     line-height: 1.5;
@@ -50,3 +50,8 @@ html {
 }
 
 .heading-sm {}
+
+
+h1, h2, h3, h4, h5, h6  {color: #1e1e1c; font-weight:800; font-family: "Montserrat", sans-serif; }
+body                    {color: #1e1e1c; font-family: "Montserrat", sans-serif; }
+
