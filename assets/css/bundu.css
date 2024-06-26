@@ -1,1 +1,52 @@
+:root {
+    --c-off-white: #f2f2f4;
+    --c-goma-grey: #3c3c3c;
+    --c-white: #fff;
+    --c-mid-grey: #5f5f5f;
+    --c-map-blue: #65677f;
+    --c-goma-grey-hover: #5c5c5c;
+    --c-goma-grey-selected: #2a2a2c;
+    --c-goma-grey-disabled: #d5dadf;
+    --c-caption-dark: var(--c-goma-grey);
+    --c-caption-light: var(--c-white);
+    --c-form-error: #f95252;
+    --g-col-size: 6rem;
+    --g-col: minmax(min(var(--g-col-size),100%),1fr);
+    --g-gap: 1.5rem;
+    --container-width: 93rem;
+    --gutter: calc((100vw - var(--container-width))/2);
+    --slope: 5vw;
+    --button-bg: var(--c-goma-grey);
+    --button-fg: var(--c-white);
+    --selection-bg: var(--c-goma-grey);
+    --selection-fg: var(--c-white);
 
+    --f-s-sm: 1.35rem;
+    --f-s-xs: .75rem;
+    --f-s-root-fluid: calc(1rem + .25*(100vw - 20rem)/28);
+    --f-s-xl-fluid: calc(2.1875rem + 1.5625*(100vw - 20rem)/76);
+    --f-s-lg-fluid: calc(1.75rem + .5*(100vw - 20rem)/76);
+    --f-s-md-fluid: calc(1.35rem + .15*(100vw - 20rem)/76);
+    --f-s-root: clamp(1rem,var(--f-s-root-fluid),1.25rem);
+    --f-s-xl: clamp(2.1875rem,var(--f-s-xl-fluid),3.75rem);
+    --f-s-lg: clamp(1.75rem,var(--f-s-lg-fluid),2.25rem);
+    --f-s-md: clamp(1.35rem,var(--f-s-md-fluid),1.5rem);
+}
+
+html {
+    color: var(--c-goma-grey);
+    font-family: Flama, sans-serif;
+    font-size: var(--f-s-root);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.heanding-lg {}
+
+.heanding-md {
+  font-weight: 800;
+  line-height: 1.1;
+  font-size: var(--f-s-md);
+}
+
+.heanding-sm {}
