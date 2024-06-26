@@ -41,12 +41,12 @@ html {
     line-height: 1.5;
 }
 
-.heanding-lg {}
+.heading-lg {}
 
-.heanding-md {
+.heading-md {
   font-weight: 800;
   line-height: 1.1;
   font-size: var(--f-s-md);
 }
 
-.heanding-sm {}
+.heading-sm {}
