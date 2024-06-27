@@ -322,6 +322,30 @@
 <section class="my-5 py-4">  
     <div class="container-fluid">
         <h2>What's On  </h2>
+<div class="row">
+  <div class="col-md-12">
+<nav class="buttons">
+      
+        <button :class="show == 'Upcoming' &amp;&amp; 'active'" @click="show = 'Upcoming'" title="Upcoming" class="active">
+          <span>Upcoming</span>
+        </button>
+        <button :class="show == 'Cinema' &amp;&amp; 'active'" @click="show = 'Cinema'" title="Cinema" class="">
+          <span>Cinema</span>
+        </button>
+        <button :class="show == 'Kids' &amp;&amp; 'active'" @click="show = 'Kids'" title="Kids" class="">
+          <span>Kids</span>
+        </button>
+        <button :class="show == 'Members' &amp;&amp; 'active'" @click="show = 'Members'" title="Members" class="">
+          <span>Members</span>
+        </button>
+        <button :class="show == 'Tours' &amp;&amp; 'active'" @click="show = 'Tours'" title="Tours" class="">
+          <span>Tours</span>
+        </button>
+    </nav>
+</div>
+</div>
+
+      
         <div class="row">
           <div class="col-md-3">
             
@@ -393,6 +417,7 @@
 <section class="mt-4 py-4 bg-dark text-light">  
     <div class="container-fluid">
         <h2>What's On  </h2>
+      
         <div class="row">
           <div class="col-md-6">
             
